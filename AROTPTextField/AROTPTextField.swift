@@ -32,7 +32,7 @@ public class AROTPTextField: UITextField {
     /// The default font size of the text
     public var otpFontSize: CGFloat = 22
     /// The default font of the text
-    public var otpFont: UIFont = UIFont.systemFont(ofSize: 22)
+    public var otpFont: UIFont = .systemFont(ofSize: 22)
     /// The delegate of the OTPTextFieldDelegate protocol
     public weak var otpDelegate: AROTPTextFieldDelegate?
 
