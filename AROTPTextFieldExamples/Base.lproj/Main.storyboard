@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AROTPTextFieldExamples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="With Border" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2WS-yL-vvh">
+                                <rect key="frame" x="10" y="243.5" width="394" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="98v-cl-E8m" customClass="AROTPTextField" customModule="AROTPTextFieldExamples" customModuleProvider="target">
+                                <rect key="frame" x="10" y="290" width="394" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="25o-Rx-8oX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Without Border" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zc-aA-TIE">
+                                <rect key="frame" x="10" y="385" width="394" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nVT-wR-Dal" customClass="AROTPTextField" customModule="AROTPTextFieldExamples" customModuleProvider="target">
+                                <rect key="frame" x="10" y="431.5" width="394" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="jZX-4e-Lwv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clear Background" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vww-DB-jHV">
+                                <rect key="frame" x="10" y="526.5" width="394" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zje-dw-QY8" customClass="AROTPTextField" customModule="AROTPTextFieldExamples" customModuleProvider="target">
+                                <rect key="frame" x="10" y="573" width="394" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="tVb-l3-jw4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2WS-yL-vvh" secondAttribute="trailing" constant="10" id="1Gt-iR-dIZ"/>
+                            <constraint firstItem="3Zc-aA-TIE" firstAttribute="trailing" secondItem="98v-cl-E8m" secondAttribute="trailing" id="4cN-jE-8Ar"/>
+                            <constraint firstItem="98v-cl-E8m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="7A1-nH-SX1"/>
+                            <constraint firstItem="3Zc-aA-TIE" firstAttribute="top" secondItem="98v-cl-E8m" secondAttribute="bottom" constant="50" id="Gub-Om-WD8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="98v-cl-E8m" secondAttribute="trailing" constant="10" id="KXq-VZ-9zb"/>
+                            <constraint firstItem="3Zc-aA-TIE" firstAttribute="leading" secondItem="nVT-wR-Dal" secondAttribute="leading" id="Vtn-ES-pNK"/>
+                            <constraint firstItem="2WS-yL-vvh" firstAttribute="leading" secondItem="98v-cl-E8m" secondAttribute="leading" id="WaO-g8-DgJ"/>
+                            <constraint firstItem="Vww-DB-jHV" firstAttribute="top" secondItem="nVT-wR-Dal" secondAttribute="bottom" constant="50" id="Xuc-cP-7BH"/>
+                            <constraint firstItem="Zje-dw-QY8" firstAttribute="top" secondItem="Vww-DB-jHV" secondAttribute="bottom" constant="20" id="bGm-t8-w2K"/>
+                            <constraint firstItem="3Zc-aA-TIE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="bhj-Bu-BZT"/>
+                            <constraint firstItem="98v-cl-E8m" firstAttribute="top" secondItem="2WS-yL-vvh" secondAttribute="bottom" constant="20" id="fFi-Zf-Dek"/>
+                            <constraint firstItem="Vww-DB-jHV" firstAttribute="leading" secondItem="Zje-dw-QY8" secondAttribute="leading" id="jAc-bU-87w"/>
+                            <constraint firstItem="nVT-wR-Dal" firstAttribute="trailing" secondItem="3Zc-aA-TIE" secondAttribute="trailing" id="jUN-GS-Q0z"/>
+                            <constraint firstItem="Vww-DB-jHV" firstAttribute="trailing" secondItem="nVT-wR-Dal" secondAttribute="trailing" id="m0k-0d-0bw"/>
+                            <constraint firstItem="nVT-wR-Dal" firstAttribute="top" secondItem="3Zc-aA-TIE" secondAttribute="bottom" constant="20" id="qVf-0E-u6x"/>
+                            <constraint firstItem="Zje-dw-QY8" firstAttribute="trailing" secondItem="Vww-DB-jHV" secondAttribute="trailing" id="r1w-0R-362"/>
+                            <constraint firstItem="Vww-DB-jHV" firstAttribute="leading" secondItem="nVT-wR-Dal" secondAttribute="leading" id="sFf-bo-VmX"/>
+                            <constraint firstItem="3Zc-aA-TIE" firstAttribute="leading" secondItem="98v-cl-E8m" secondAttribute="leading" id="uCY-Kx-pqc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clearBgTextField" destination="Zje-dw-QY8" id="Z4H-fh-Vtj"/>
+                        <outlet property="defaultTextField" destination="98v-cl-E8m" id="68K-x6-0a1"/>
+                        <outlet property="withoutBorderTextField" destination="nVT-wR-Dal" id="EB3-D4-Sjc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="68"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
