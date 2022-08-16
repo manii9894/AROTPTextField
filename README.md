@@ -54,7 +54,7 @@ Customization example
         OTPTextField.configure()
 ```
 
-To get the results from the TextField, extend your ViewController using `AEOTPTextFieldDelegate` protocol
+To get the results from the TextField, extend your ViewController using `AROTPTextFieldDelegate` protocol
 ``` swift
 extension ViewController: AROTPTextFieldDelegate {
     
