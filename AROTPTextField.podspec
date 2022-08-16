@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AROTPTextField"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "This library helps you to create input field for one time passwords."
 
   # This description is used to generate tags and improve search results.
